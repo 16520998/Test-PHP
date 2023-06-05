@@ -36,5 +36,3 @@ function updateTaskById()
         return $data;
     }
 }
-
-?>s

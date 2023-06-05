@@ -17,5 +17,3 @@ function getTask()
 
     return $data;
 }
-
-?>

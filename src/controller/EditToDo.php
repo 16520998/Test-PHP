@@ -20,7 +20,4 @@ function editTaskById(){
 
     }
     return $data;
-
 }
-
-?>

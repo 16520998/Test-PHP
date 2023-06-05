@@ -15,11 +15,17 @@ if (isset($_GET['delete-task'])) {
 <form method="post">
     <p class="text-danger">
         <?php
-        echo $createTask['success'] ?? '';
         echo $createTask['taskMsg'] ?? '';
+        ?>
+    </p>
+
+    <p class="text-success">
+        <?php
+        echo $createTask['success'] ?? '';
         echo $deleteTask['success'] ?? '';
         ?>
     </p>
+
     <div class="row">
         <div class="form-group mb-3">
             <label for="task">Task name:</label>
