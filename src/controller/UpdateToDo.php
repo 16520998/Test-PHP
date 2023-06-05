@@ -22,24 +22,19 @@ function updateTaskById()
             $validation = true;
         }
 
-        /* validation */
         if ($validation) {
-            /* sql query*/
             $query = "UPDATE todo SET ";
             $query .= "task ='$task', start_date ='$startDate', end_date='$endDate'";
-            $query .= "WHERE id =$id";
+            $query .= " WHERE id =$id";
 
             $result = $conn->query($query);
 
             if ($result) {
-
                 echo "<script>window.location='index.php'</script>";
-
             }
-            /*sql query*/
         }
         return $data;
     }
 }
 
-?>
+?>s

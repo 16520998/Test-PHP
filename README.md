@@ -30,4 +30,3 @@ docker exec -it php-apache sh
 ```sh
 ./vendor/bin/phpunit tests/{name}.php
 ```
-./vendor/bin/phpunit tests/EditToDoTest.php
